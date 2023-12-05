@@ -1,22 +1,28 @@
-import logo from './logo.svg';
+import cupcake from './cupcake.jpg';
 import './App.css';
+
+const name = "Namn Namnsson";
+const bool = true;
+const num = 234;
+
+function MainContent()
+{
+  return (
+    <p>
+      <h1>Testing React</h1>
+      Name: {name}<br/>
+      Bool: {bool ? "It's true!" : "It's false"}<br/>
+      Number: {num}<br/>
+    </p>
+  );
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={cupcake} className="App-logo" alt="Cupcake" />
+        <MainContent/>
       </header>
     </div>
   );
