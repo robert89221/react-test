@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-test/static/css/main.dae1a1dc.css",
+    "main.js": "/react-test/static/js/main.d89df242.js",
+    "static/js/787.272af0be.chunk.js": "/react-test/static/js/787.272af0be.chunk.js",
+    "static/media/cupcake.jpg": "/react-test/static/media/cupcake.30fc130a9139c3c15ebb.jpg",
+    "index.html": "/react-test/index.html",
+    "main.dae1a1dc.css.map": "/react-test/static/css/main.dae1a1dc.css.map",
+    "main.d89df242.js.map": "/react-test/static/js/main.d89df242.js.map",
+    "787.272af0be.chunk.js.map": "/react-test/static/js/787.272af0be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dae1a1dc.css",
+    "static/js/main.d89df242.js"
+  ]
+}
